@@ -1,0 +1,102 @@
+ *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(https://i.pinimg.com/originals/37/28/81/37288179ad53fe95258d3b5bf77014f6.jpg);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background: rgb(80, 61, 26);
+    width: 220px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.card-image{
+    background-color: white;
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.food-1{
+    background-image: url('https://i.iheart.com/v3/re/new_assets/5f1766f2a4d4bcbecd5deb1a')
+}
+
+.food-2{
+    background-image: url('https://cmx.weightwatchers.com/assets-proxy/weight-watchers/image/upload/v1594406683/visitor-site/prod/ca/burgers_mobile_my18jv')
+}
+
+.food-3{
+    background-image: url('https://foodsguy.com/wp-content/uploads/2019/12/Reheat-Kebab.jpg')
+}
+
+.food-4{
+    background-image: url('https://vegannook.com/sites/default/files/recipe_images/vegan_corn_dogs.jpg')
+}
+
+.card h2{
+    padding: 10px;
+}
+
+.card p{
+    padding: 10px;
+}
+
+.card a{
+    background-color: white;
+    color: rgba(255, 0, 0, 0.938);
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 30px;   
+}
+
+.card:hover{
+    background-color: rgb(44, 28, 31);
+    color: ivory;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+    height: 60px;
+}
+
+nav.logo{
+    letter-spacing: 5px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+nav ul{
+    display:flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color:white;
+}
